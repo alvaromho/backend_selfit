@@ -14,7 +14,7 @@ exports.index = function(req, res) {
 
 	var data = {
 		status: 'OK',
-		message: 'Welcome to Selfit´s Backend.--------'
+		message: 'oli.'
 	}
 
 	// respond back with the data
