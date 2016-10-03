@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(methodOverride());
 
 // connecting to database
-app.db = mongoose.connect('mongodb://127.0.0.1:27017/selfit_db');
+app.db = mongoose.connect('mongodb://alvaro.mho:hola@ds015995.mlab.com:15995/selfit-database');
 console.log("connected to database");
 
 /**

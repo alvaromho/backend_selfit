@@ -1,0 +1,7 @@
+MongoDB shell version: 3.2.0
+connecting to: ds015995.mlab.com:15995/selfit-database
+2016-10-03T01:51:55.995-0300 E QUERY    [thread1] Error: Missing expected field "pwd" :
+DB.prototype._authOrThrow@src/mongo/shell/db.js:1395:16
+@(auth):5:1
+@(auth):1:2
+
